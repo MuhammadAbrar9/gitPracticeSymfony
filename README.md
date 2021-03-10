@@ -1,2 +1,2 @@
 # gitPracticeSymfony
-The main purpose of making this repo is pratice.
+The main purpose of making this repository is pratice.
