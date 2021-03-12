@@ -1,0 +1,30 @@
+From 759769411e364b7099e9dade6e4c698f7f83e23d Mon Sep 17 00:00:00 2001
+From: MuhammadAbrar <muhammadabrar9999@gmail.com>
+Date: Fri, 12 Mar 2021 10:23:04 +0500
+Subject: [PATCH] Added str func
+
+---
+ string-opr.c | 11 +++++++++++
+ 1 file changed, 11 insertions(+)
+ create mode 100644 string-opr.c
+
+diff --git a/string-opr.c b/string-opr.c
+new file mode 100644
+index 0000000..7b9797d
+--- /dev/null
++++ b/string-opr.c
+@@ -0,0 +1,11 @@
++char *my_strcat(char *t, char *s)
++{
++   
++   char *p = t;
++   
++   while (*p)
++   ++p;
++   
++   while (*p++ = *s++);
++   return t;
++}
+-- 
+2.25.1
+
