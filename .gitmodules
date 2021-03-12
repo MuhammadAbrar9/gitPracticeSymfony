@@ -1,0 +1,3 @@
+[submodule "validations"]
+	path = validations
+	url = git@github.com:blue-kale2/validations.git
